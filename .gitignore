@@ -1,0 +1,33 @@
+# 素材与个人文件一律不入库
+assets/*
+!assets/README.md
+
+# 音视频
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.mov
+
+# 图片
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 法院文书 PDF（公开记录，但体积大且无需入库，见 sources/SOURCES.md 链接）
+*.pdf
+
+# 含真实姓名的原始工作稿
+pre*.md
+Sivon_PPT开发计划*.md
+
+# Office
+~$*
+*.pptx
+*.docx
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
